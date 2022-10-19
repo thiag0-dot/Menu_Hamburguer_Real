@@ -17,6 +17,12 @@
                 <Setter Property="TextColor" Value="#FFFFFF"/>
                 <Setter Property="CornerRadius" Value="5"/>
             </Style>
+            
+            <Style x:Key="BotaoBranco" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#FFFFFF" />
+                <Setter Property="TextColor" Value="#3E474C"/>
+                <Setter Property="CornerRadius" Value="5"/>
+            </Style>
 
             <Style x:Key="textoCentralizado" TargetType="Label">
                 <Setter Property="HorizontalTextAlignment" Value="Center" />

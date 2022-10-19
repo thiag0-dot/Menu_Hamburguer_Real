@@ -18,15 +18,15 @@
                     <Image Source="logo_etec" Aspect="AspectFit"/>
                 </StackLayout>
 
-                <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#F3F2F0">
+                <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#3E474C">
 
                     <Button Text="Inicial" Clicked="Open_Inicial" Style="{ StaticResource BotaoVermelho }"/>
 
-                    <Button Text="Primeiro Ano" Clicked="Open_Primeiro" Style="{ StaticResource BotaoCinza}"/>
+                    <Button Text="Primeiro Ano" Clicked="Open_Primeiro" Style="{ StaticResource BotaoBranco}"/>
 
-                    <Button Text="Segundo Ano" Clicked="Open_Segundo" Style="{ StaticResource BotaoCinza}"/>
+                    <Button Text="Segundo Ano" Clicked="Open_Segundo" Style="{ StaticResource BotaoBranco}"/>
 
-                    <Button Text="Terceiro Ano" Clicked="Open_Terceiro" Style="{ StaticResource BotaoCinza}"/>
+                    <Button Text="Terceiro Ano" Clicked="Open_Terceiro" Style="{ StaticResource BotaoBranco}"/>
 
                     <Button Text="Vestibulinho" Clicked="Open_Vestibulinho" Style="{ StaticResource BotaoVermelho}"/>
 

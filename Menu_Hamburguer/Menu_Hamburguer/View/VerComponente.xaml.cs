@@ -16,6 +16,7 @@ namespace Menu_Hamburguer.View
         public VerComponente( Componente c)
         {
             InitializeComponent();
+            BindingContext = c;
         }
     }
 }
