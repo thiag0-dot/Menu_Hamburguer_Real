@@ -23,7 +23,7 @@ namespace Menu_Hamburguer.View
         {
             try
             {
-                var c = new Componete
+                var c = new Componente
                 {
                     Nome = "Linguagem, Trabalho e Tecnologia",
 
@@ -44,7 +44,7 @@ namespace Menu_Hamburguer.View
         {
             try
             {
-                var c = new Componete
+                var c = new Componente
                 {
                     Nome = "Programação e Algoritmos",
 
@@ -65,7 +65,7 @@ namespace Menu_Hamburguer.View
         {
             try
             {
-                var c = new Componete
+                var c = new Componente
                 {
                     Nome = "Banco de Dados I",
 
@@ -85,7 +85,7 @@ namespace Menu_Hamburguer.View
         {
             try
             {
-                var c = new Componete
+                var c = new Componente
                 {
                     Nome = "Análise e Projeto de Sistemas",
 
@@ -105,7 +105,7 @@ namespace Menu_Hamburguer.View
         {
             try
             {
-                var c = new Componete
+                var c = new Componente
                 {
                     Nome = "Design Digital",
 
@@ -125,7 +125,7 @@ namespace Menu_Hamburguer.View
         {
             try
             {
-                var c = new Componete
+                var c = new Componente
                 {
                     Nome = "Programação Web I",
 
@@ -145,7 +145,7 @@ namespace Menu_Hamburguer.View
         {
             try
             {
-                var c = new Componete
+                var c = new Componente
                 {
                     Nome = "Fundamentos da Informática",
 
@@ -166,7 +166,7 @@ namespace Menu_Hamburguer.View
         {
             try
             {
-                var c = new Componete
+                var c = new Componente
                 {
                     Nome = "Técnicas de Programação",
 

@@ -16,5 +16,10 @@ namespace Menu_Hamburguer.View
         {
             InitializeComponent();
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Device.OpenUri(new Uri("tel:01436223566"));
+        }
     }
 }

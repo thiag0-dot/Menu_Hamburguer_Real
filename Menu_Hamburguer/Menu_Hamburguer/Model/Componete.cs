@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Menu_Hamburguer.Model
 {
-    public class Componete
+    public class Componente
     {
 
         public string Nome { get; set; }

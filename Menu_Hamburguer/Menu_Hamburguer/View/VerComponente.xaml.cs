@@ -13,7 +13,7 @@ namespace Menu_Hamburguer.View
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class VerComponente : ContentPage
     {
-        public VerComponente( Componete c)
+        public VerComponente( Componente c)
         {
             InitializeComponent();
         }

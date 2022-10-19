@@ -22,7 +22,7 @@ namespace Menu_Hamburguer.View
         {
             try
             {
-                var c = new Componete
+                var c = new Componente
                 {
                     Nome = "Desenvolvimento de Sistemas",
 
@@ -41,7 +41,7 @@ namespace Menu_Hamburguer.View
         {
             try
             {
-                var c = new Componete
+                var c = new Componente
                 {
                     Nome = "Banco de Dados II",
 
@@ -61,7 +61,7 @@ namespace Menu_Hamburguer.View
         {
             try
             {
-                var c = new Componete
+                var c = new Componente
                 {
                     Nome = "Sistemas Embarcados ",
 
@@ -81,7 +81,7 @@ namespace Menu_Hamburguer.View
         {
             try
             {
-                var c = new Componete
+                var c = new Componente
                 {
                     Nome = "Programação de Aplicativos Mobile I ",
 
@@ -101,7 +101,7 @@ namespace Menu_Hamburguer.View
         {
             try
             {
-                var c = new Componete
+                var c = new Componente
                 {
                     Nome = "Programação Web II",
 

@@ -1,12 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Menu_Hamburguer.View.Vestibulinho">
+             x:Class="Menu_Hamburguer.View.Vestibulinho"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             BackgroundColor="#F3F2F0"
+             Title="Vestibulinho">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+
+            <Label Text="FIQUE ATENTO AS DATAS, ACESSO O SITE ABAIXO"
+                   HorizontalTextAlignment="Center"
+                   FontAttributes="Bold"
+                   Margin="10"
+                   FontSize="Title" />
+
+
+            <Button Text="Inscreva-se pelo site: www.vestibulinhoetec.com.br"
+                    Style="{ StaticResource BotaoVermelho }"
+                    Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
