@@ -4,29 +4,29 @@
              x:Class="Menu_Hamburguer.MainPage">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu">
-            <Grid BackgroundColor="#3E474C">
+            <Grid BackgroundColor="#FFFFFF">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="160" />
                     <RowDefinition Height="*" />
                 </Grid.RowDefinitions>
 
                 <StackLayout Grid.Row="0"
-                             BackgroundColor="#F3F2F0"
+                             BackgroundColor="#FFFFFF"
                              Padding="10"
                              Margin="10"
                              HorizontalOptions="FillAndExpand">
-                    <Image Source="logo_etec" Aspect="AspectFit"/>
+                    <Image x:Name="Etec" Aspect="Fill" WidthRequest="100" HeightRequest="140" Margin="40, -10, 40,0"/>
                 </StackLayout>
 
-                <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#3E474C">
+                <StackLayout Grid.Row="1" Spacing="10" Margin="10" Padding="10" BackgroundColor="#FFFFFF">
 
                     <Button Text="Inicial" Clicked="Open_Inicial" Style="{ StaticResource BotaoVermelho }"/>
 
-                    <Button Text="Primeiro Ano" Clicked="Open_Primeiro" Style="{ StaticResource BotaoBranco}"/>
+                    <Button Text="Primeiro Ano" Clicked="Open_Primeiro" Style="{ StaticResource BotaoCinza}"/>
 
-                    <Button Text="Segundo Ano" Clicked="Open_Segundo" Style="{ StaticResource BotaoBranco}"/>
+                    <Button Text="Segundo Ano" Clicked="Open_Segundo" Style="{ StaticResource BotaoCinza}"/>
 
-                    <Button Text="Terceiro Ano" Clicked="Open_Terceiro" Style="{ StaticResource BotaoBranco}"/>
+                    <Button Text="Terceiro Ano" Clicked="Open_Terceiro" Style="{ StaticResource BotaoCinza}"/>
 
                     <Button Text="Vestibulinho" Clicked="Open_Vestibulinho" Style="{ StaticResource BotaoVermelho}"/>
 

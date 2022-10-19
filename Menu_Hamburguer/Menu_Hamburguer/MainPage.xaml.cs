@@ -19,6 +19,7 @@ namespace Menu_Hamburguer
             InitializeComponent();
 
             Detail = new NavigationPage((Page)Activator.CreateInstance(typeof(Inicial)));
+            Etec.Source = ImageSource.FromResource("Menu_Hamburguer.Image.logo_etec.png");
         }
 
         private async void Open_Inicial(object sender, EventArgs e)
