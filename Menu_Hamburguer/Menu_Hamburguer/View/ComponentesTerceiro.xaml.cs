@@ -56,5 +56,10 @@ namespace Menu_Hamburguer.View
                 await DisplayAlert("Ops!", ex.Message, "OK");
             }
         }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }
