@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             mc:Ignorable="d"
+             x:Class="Menu_Hamburguer.Inicial"
+             BackgroundColor="#F3F2F0"
+             Title="App Guia do Curso de DS">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+                <Label Text="Olá! Este App é para guiá-lo pelo Curso Técnico em Desenvolvimento de Sistemas"
+                       FontSize="Medium"
+                       Style="{ StaticResource textoCentralizado}"/>
+
+                <Label Text="O curso tem três anos de duração e é feito junto ao ensino médio. Desenvolvemos este App para explicar o conteúdo"
+                       FontSize="Medium"
+                       Style="{ StaticResource textoCentralizado}"/>
+
+                <Label Text="Em Breve este App estará na Expotec."
+                       TextColor="#AB0209"
+                       Style="{ StaticResource textoCentralizado }"/>
+
+                <Label Text="Este App foi desenvolvido sob a orientação do Prof. Tiago A. Silva e do Prof. Marcos Rogério Pagagnotti"
+                       Style="{StaticResource textoCentralizado }"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

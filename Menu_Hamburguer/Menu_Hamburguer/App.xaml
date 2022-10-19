@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu_Hamburguer.App">
+    <Application.Resources>
+
+        <ResourceDictionary>
+
+            <Style x:Key="BotaoVermelho" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#AB0209" />
+                <Setter Property="TextColor" Value="#FFF"/>
+                <Setter Property="CornerRadius" Value="5"/>
+            </Style>
+
+            <Style x:Key="BotaoCinza" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#3E474C" />
+                <Setter Property="TextColor" Value="#FFFFFF"/>
+                <Setter Property="CornerRadius" Value="5"/>
+            </Style>
+
+            <Style x:Key="textoCentralizado" TargetType="Label">
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+            </Style>
+
+        </ResourceDictionary>
+        
+    </Application.Resources>
+</Application>

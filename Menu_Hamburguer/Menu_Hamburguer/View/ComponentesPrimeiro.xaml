@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             mc:Ignorable="d"
+             x:Class="Menu_Hamburguer.View.ComponentesPrimeiro"
+             BackgroundColor="#F3F2F0"
+             Title="Disciplinas do Primeiro Ano">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+
+                <Button Text="Linguagem, Trabalho e Tecnologia" Clicked="Button_Clicked" Style="{StaticResource BotaoCinza}"/>
+                <Button Text="Programação e Algoritmos" Clicked="Button_Clicked_1" Style="{StaticResource BotaoCinza}"/>
+                <Button Text="Banco de Dados I" Clicked="Button_Clicked_2" Style="{StaticResource BotaoCinza}"/>
+                <Button Text="Análise e Projeto de Sistemas" Clicked="Button_Clicked_3" Style="{StaticResource BotaoCinza}"/>
+                <Button Text="Design Digital" Clicked="Button_Clicked_4" Style="{StaticResource BotaoCinza}"/>
+                <Button Text="Programação Web I" Clicked="Button_Clicked_5" Style="{StaticResource BotaoCinza}"/>
+                <Button Text="Fundamentos da Informática" Clicked="Button_Clicked_6" Style="{StaticResource BotaoCinza}"/>
+                <Button Text="Técnicas de Programação" Clicked="Button_Clicked_7" Style="{ StaticResource BotaoCinza}"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

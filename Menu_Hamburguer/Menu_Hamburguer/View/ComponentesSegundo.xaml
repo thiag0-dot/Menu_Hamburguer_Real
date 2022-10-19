@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             mc:Ignorable="d"
+             x:Class="Menu_Hamburguer.View.ComponentesSegundo"
+             BackgroundColor="#F3F2F0"
+             Title="Disciplinas do Segundo Ano">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="CenterAndExpand" Padding="10">
+
+                <Button Text="Desenvolvimento de Sistemas" Clicked="Button_Clicked" Style="{StaticResource BotaoCinza}"/>
+                <Button Text="Banco de Dados II" Clicked="Button_Clicked_1" Style="{StaticResource BotaoCinza}"/>
+                <Button Text="Sistemas Embarcados" Clicked="Button_Clicked_2" Style="{StaticResource BotaoCinza}"/>
+                <Button Text="Programação de Aplicativos Mobile I " Clicked="Button_Clicked_3" Style="{StaticResource BotaoCinza}"/>
+                <Button Text="Programação Web II" Clicked="Button_Clicked_4" Style="{StaticResource BotaoCinza}"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
